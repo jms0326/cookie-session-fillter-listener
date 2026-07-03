@@ -1,10 +1,13 @@
+<%-- webapp/WEB-INF/views/step01/cookie.jsp --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Cookie</title>
 </head>
 <body>
-<strong>hello</strong>
+<h1>Cookie</h1>
+<p>
+    ${cookie.get("firstCookie").value}
+</p>
 </body>
 </html>
